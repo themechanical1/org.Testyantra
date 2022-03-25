@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test-runner 1">
+  <parameter name="browsername" value="chrome"></parameter>
+    <classes>
+      <class name="conatact.CreateContact"/>
+      <class name="com.crm.autodesk.createOpportunitiesWithPOM.CreateOpportunitiesWithClickOnSalesStage"/>
+      <class name="com.crm.autodesk.createOpportunitiesWithPOM.CreateOpportunitieswithGroupTeamsellingTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Test-runner 2">
+  <parameter name="browsername" value="firefox"></parameter>
+    <classes>
+      
+      <class name="com.crm.autodesk.contacttest.CreateContactWithOrganizationTest"/>
+      <class name="CreateOrganizationWithPOM.CreateorganizationTest"/>
+      <class name="campign.CreateCampign"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

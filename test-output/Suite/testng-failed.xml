@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test-runner 5(failed)">
+    <classes>
+      <class name="CreateOrganizationWithPOM.CreateorganizationTest">
+        <methods>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="createorganizationTest"/>
+        </methods>
+      </class> <!-- CreateOrganizationWithPOM.CreateorganizationTest -->
+    </classes>
+  </test> <!-- Test-runner 5(failed) -->
+  <test thread-count="5" parallel="tests" name="Test-runner 4(failed)">
+    <classes>
+      <class name="com.crm.autodesk.contacttest.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="createcontactwithOrg"/>
+          <include name="bm"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.contacttest.CreateContactWithOrganizationTest -->
+    </classes>
+  </test> <!-- Test-runner 4(failed) -->
+  <test thread-count="5" parallel="tests" name="Test-runner 1(failed)">
+    <classes>
+      <class name="conatact.CreateContact">
+        <methods>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="createContact"/>
+        </methods>
+      </class> <!-- conatact.CreateContact -->
+    </classes>
+  </test> <!-- Test-runner 1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test-runner 3(failed)">
+    <classes>
+      <class name="com.crm.autodesk.createOpportunitiesWithPOM.CreateOpportunitieswithGroupTeamsellingTest">
+        <methods>
+          <include name="createopportunitieswithgroup"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="bm"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.createOpportunitiesWithPOM.CreateOpportunitieswithGroupTeamsellingTest -->
+    </classes>
+  </test> <!-- Test-runner 3(failed) -->
+  <test thread-count="5" parallel="tests" name="Test-runner 2(failed)">
+    <classes>
+      <class name="com.crm.autodesk.createOpportunitiesWithPOM.CreateOpportunitiesWithClickOnSalesStage">
+        <methods>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="bm"/>
+          <include name="am"/>
+          <include name="createopportunitywithclickonsale"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.createOpportunitiesWithPOM.CreateOpportunitiesWithClickOnSalesStage -->
+    </classes>
+  </test> <!-- Test-runner 2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test-runner 6(failed)">
+    <classes>
+      <class name="campign.CreateCampign">
+        <methods>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="at"/>
+          <include name="createcampign"/>
+          <include name="bm"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- campign.CreateCampign -->
+    </classes>
+  </test> <!-- Test-runner 6(failed) -->
+</suite> <!-- Failed suite [Suite] -->
